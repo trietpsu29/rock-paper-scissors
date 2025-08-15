@@ -4,3 +4,6 @@ function getComputerChoice() {
   if (computerChoice === 1) return "paper";
   if (computerChoice === 2) return "scissors";
 }
+function getHumanChoice() {
+  return prompt("Enter your choice");
+}
